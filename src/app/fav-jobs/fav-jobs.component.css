@@ -1,0 +1,27 @@
+.jobs{
+ 
+    background-color:lightpink;
+    border:12px outset;
+    display: grid;
+      grid-template-columns: 1fr auto;
+     justify-content: space-between;
+    grid-area: auto;
+    align-items: center;
+    padding-right: 10px;
+    padding-top: 10px;
+  
+    
+  
+  }
+  .jobs img{
+    float: right;
+    /* margin-left: 10px; */
+    margin-left: 20px;
+    flex-shrink: 0;
+    
+  }
+  .joblist{
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+  }

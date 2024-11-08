@@ -1,0 +1,23 @@
+<!-- <p>fav-jobs works!</p> -->
+    <h2>Favorite Jobs</h2>
+    
+    <!-- {{jobservice.getfavjobs()|json}} -->
+
+    <div *ngFor="let job of jobs">
+        <div class="jobs">
+        
+      <div>
+        <ul class="joblist">
+        <li>{{job.id}}</li>
+        <li>{{job.companyName}}</li>
+        <li>{{job.title}}</li>
+       
+        <li>{{job.reference}}</li>
+        </ul>
+      </div>
+      <img src= "{{job.companyLogo}}" style="height:100px;width:100px"/>
+        </div>
+        
+</div>
+    
+

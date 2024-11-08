@@ -1,0 +1,23 @@
+<div *ngFor="let jobs of EmployeeInfo">
+    <div class = "jobs">
+    <div>
+        <ul class="joblist">
+        
+        <span class="star" [class.starred]="jobs.isFavourite" (click)="toggleFavorite(jobs)">
+            <i class="fa fa-star"></i>
+        </span>
+        <li>{{jobs.id}}</li>
+        <li>{{jobs.companyName}}</li>
+        <li>{{jobs.title}}</li>
+        <li>{{jobs.reference}}</li>
+        </ul>
+    </div>
+        <img src= "{{jobs.companyLogo}}" style="height:100px;width:100px"/>
+      
+        <br>
+  
+    </div>
+  
+
+</div>
+<!-- <app-fav-jobs [favoriteJobs]="favoriteJobs"></app-fav-jobs> -->

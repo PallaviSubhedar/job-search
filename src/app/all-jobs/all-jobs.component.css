@@ -1,0 +1,73 @@
+/* .star-icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-size: contain; 
+    background-image: url('/assets/star-empty.svg');
+    
+
+  }
+  .star-icon:active{
+
+    
+    background-image: url('/assets/star-filled.png')!important;
+
+  
+  } */
+
+   .star{
+     /* Adjust size as needed */
+    cursor: pointer;
+   
+
+    
+   /* Default color */
+}
+
+.jobs .star.starred  .fa-star{
+  color:blue
+
+}
+.jobs{
+ 
+  background-color:lightpink;
+  border:12px outset blue;
+  display: grid;
+    grid-template-columns: 1fr auto;
+   /* justify-content: space-between;   */
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin:12px 20px;
+  box-sizing: border-box;
+  gap:10px;
+
+  
+
+}
+.jobs img{
+  max-width: 100%;
+  object-fit: contain;
+  /* margin-left: 10px; */
+  margin-left: 20px;
+  flex-shrink: 0;
+  height: auto;
+  
+  
+}
+.joblist{
+  color: black;
+  font-weight: 500;
+  font-size: larger;
+  width: 100%;
+  flex: 1;
+}
+
+.jobs ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+}
